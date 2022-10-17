@@ -1,0 +1,33 @@
+.resume-box {
+    background-color: rgba(53, 50, 250, .2);
+    width: 250px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 675px) {
+    .resume-box {
+        width: 100%;
+    }
+}

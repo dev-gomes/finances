@@ -1,0 +1,13 @@
+.resume {
+    display: flex;
+    gap: 60px;   
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 675px) {
+    .resume {
+        align-items: center;
+        flex-direction: column;
+    }
+}
