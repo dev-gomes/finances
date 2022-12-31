@@ -15,7 +15,7 @@ function App() {
     const getTransactions = async () => {
       const data = await getDocs(transactionColletionRef);
       setTransactions(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-      setTimeout(() => getTransactions(), 1500);
+      setTimeout(() => getTransactions(), 1);
     };
     getTransactions();
   }, []);
